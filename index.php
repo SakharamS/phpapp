@@ -5,7 +5,7 @@ $connectionInfo = array("UID" => "sqladmin", "pwd" => "P@ssword1!", "Database" =
 $serverName = "tcp:ogmssqlserver.database.windows.net,1433";
 
 $conn = sqlsrv_connect($serverName, $connectionInfo);
-// for($k=1; $k<=50; $k++){
+for($k=1; $k<=50; $k++){
 sqlsrv_connect($serverName, $connectionInfo);
 
 
@@ -22,5 +22,5 @@ while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC) ) {
 }
 
 sqlsrv_free_stmt( $stmt);
-// }
+}
 
