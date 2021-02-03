@@ -1,5 +1,7 @@
 <?php
 
+echo ("hello world!");
+
 // SQL Server Extension Sample Code:
 $connectionInfo = array("UID" => "sqladmin", "pwd" => "P@ssword1!", "Database" => "db1", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
 $serverName = "tcp:ogmssqlserver.database.windows.net,1433";
