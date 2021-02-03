@@ -2,7 +2,7 @@
 
 echo ("hello world!");
 
-// SQL Server Extension Sample Code:
+/* SQL Server Extension Sample Code:
 $connectionInfo = array("UID" => "sqladmin", "pwd" => "P@ssword1!", "Database" => "db1", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
 $serverName = "tcp:ogmssqlserver.database.windows.net,1433";
 
@@ -25,3 +25,4 @@ while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC) ) {
 
 sqlsrv_free_stmt( $stmt);
 }
+*/
