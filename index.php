@@ -7,9 +7,6 @@ $connectionInfo = array("UID" => "sqladmin", "pwd" => "P@ssword1!", "Database" =
 $serverName = "tcp:ogmssqlserver.database.windows.net,1433";
 
 $conn = sqlsrv_connect($serverName, $connectionInfo);
-sqlsrv_connect($serverName, $connectionInfo);
-
-
 $sql = "select * from [SalesLT].[vGetAllCategories]";
 $stmt = sqlsrv_query( $conn, $sql );
 if( $stmt === false) {
