@@ -1,6 +1,6 @@
 <?php
 
-echo ("hello world changed!");
+//echo ("hello world changed!");
 
 $serverName = "ogmssqlserver.database.windows.net";
 $connectionInfo = array( "Database"=>"db1", "UID"=>"sqladmin", "PWD"=>"P@ssword1!");
